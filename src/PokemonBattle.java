@@ -1,3 +1,11 @@
+/****
+ * Grading comments:   20/25
+ *  Code looks good.  Nice work.  Mr Harpe and I decided to only take off 5 points for lateness.
+ *    Try to make your pseudocode more descriptive - you should write it out like a story of all
+ *   of the tasks you need to perform.   It'll become more useful with bigger projects.
+ *   Try to make your indentation and spacing to be consistent -  otherwise, looks perfect.  Nice job.
+ */ 
+
 /*  introduce battle (battleStart()) choose pokemon 
  * battleStart() returns pokemon name stored in variable
  * method damage() takes pokemon name as parameter and return hp
