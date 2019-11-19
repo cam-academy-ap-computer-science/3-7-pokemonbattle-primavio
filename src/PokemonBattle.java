@@ -48,7 +48,7 @@ static Scanner userInput = new Scanner (System.in);
 		int hp = userInput.nextInt();
 		System.out.println(" ");
 		/*calculate modifier*/
-		double modifier = 0.85 + (Math.random() * (1.0 - 0.85));
+		double modifier = 0.85 + ((Math.random() * (1.0 - 0.85))*stab);
 		/*calculate damage*/
 		double damage = (((2*level+10)/250) + (attack/defense)*base+2)*modifier;
 		System.out.println(name+ " sustained " + damage + " points damage.");
